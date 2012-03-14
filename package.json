@@ -1,0 +1,9 @@
+{ "name": "static-cling"
+, "version": "0.0.1"
+, "engines": [ "node >=0.6.0" ]
+, "description": "Static file server"
+, "author": "Kevin Isom (http://kevinisom.info)" 
+, "keywords" : [ "webserver", "fileserver" ] 
+, "bin" : { "static" : "./bin/static.js" }
+, "dependencies" : { "mime" : ">=0.0.1", "optimist" : ">=0.0.1" }
+}
