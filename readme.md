@@ -3,6 +3,7 @@ This is a node.js module that allows you to spin up a static file server either 
 
 ###Installing
 $ npm install static-cling
+
 Don't forget to use the global flag (--g) if you want the command line option everywhere.
 
 ###At the command line
