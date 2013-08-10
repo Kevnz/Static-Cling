@@ -1,5 +1,5 @@
 { "name": "static-cling"
-, "version": "0.1.5"
+, "version": "0.1.6"
 , "engines": [ "node >=0.6.0" ]
 , "description": "Static file server"
 , "author": "Kevin Isom (http://kevinisom.info)" 
