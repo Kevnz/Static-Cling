@@ -1,13 +1,20 @@
 { "name": "static-cling"
-, "version": "0.0.4"
+, "version": "0.0.5"
 , "engines": [ "node >=0.6.0" ]
 , "description": "Static file server"
 , "author": "Kevin Isom (http://kevinisom.info)" 
+, "repository" : { 
+    "type" : "git"
+  , "url" : "git@github.com:Kevnz/Static-Cling.git"
+}
+, "bugs" : {
+    "url": "https://github.com/Kevnz/Static-Cling/issues"
+}
 , "keywords" : [ "webserver", "fileserver" ] 
 , "bin" : { "static" : "./bin/static.js" }
 , "dependencies" : { "mime" : ">=0.0.1", "optimist" : ">=0.0.1" }
 , "directories": {
-        "lib": "./lib/static"
+    "lib": "./lib/static"
  }
 , "main": "./lib/static"
 }
