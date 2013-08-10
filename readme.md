@@ -17,3 +17,16 @@ Static Cling is available to be used as a module as well if you want to use node
 ```
 require('static-cling').cling();
 ```
+### Options
+If using the module you can override the defaults by providing a config object
+
+```
+//defaults
+var config = {
+    root: '.',
+    port: 3000,
+    filename: 'index.html'
+}
+//overriding defaults
+cling({ port: 3456, root : './other/', filename: 'test.html' });
+```

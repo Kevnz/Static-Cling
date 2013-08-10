@@ -16,11 +16,11 @@ if(argv.f){
 	file = argv.f;
 }
 path.exists(dir, function (exists) {
-	if(exists){
+	if (exists) {
 		console.log('starting to serve files in ' +  dir + ' on port ' + port);
-		cling(port, dir, file);
-	}else{
-		console.log('Directory does not exist');
+		cling({ port: port, root: dir, filename: file });
+	} else {
+ 		console.log('Directory does not exist');
 	}
 });
 
