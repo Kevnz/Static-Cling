@@ -1,6 +1,6 @@
 {
   "name": "static-cling",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": [
     "node >=4.2.0"
   ],
