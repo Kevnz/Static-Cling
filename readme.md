@@ -1,4 +1,7 @@
 # Static Cling
+
+[![Build Status](https://travis-ci.org/Kevnz/Static-Cling.svg?branch=master)](https://travis-ci.org/Kevnz/Static-Cling) [![npm version](https://badge.fury.io/js/static-cling.svg)](https://badge.fury.io/js/static-cling)
+
 This is a node.js module that allows you to spin up a static file server either from code or from the command line.
 
 ### Installing
