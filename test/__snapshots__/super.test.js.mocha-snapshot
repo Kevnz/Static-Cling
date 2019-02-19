@@ -1,0 +1,6 @@
+exports["responds with html(0)"] = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n     <meta charset=\"utf-8\">\n     <title>Test Title</title>\n     <meta name=\"description\" content=\"\">\n     <meta name=\"author\" content=\"\">\n</head>\n\n<body class=\"yui3-skin-sam yui-skin-sam\">\n     <header>\n          <h1>Hello</h1>\n     </header>\n\n     <footer>This is the test.html file</footer>\n</body>\n\n</html>";
+
+exports["responds with 404(0)"] = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <title>File Title</title>\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n</head>\n\n<body>\n  <header>\n    <h1>Hello</h1>\n  </header>\n\n  <footer>This is the file.html file</footer>\n</body>\n\n</html>";
+
+exports["responds with the correct file(0)"] = "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <title>File Title</title>\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n</head>\n\n<body>\n  <header>\n    <h1>Hello</h1>\n  </header>\n\n  <footer>This is the file.html file</footer>\n</body>\n\n</html>";
+
