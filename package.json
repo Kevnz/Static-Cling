@@ -1,6 +1,6 @@
 {
   "name": "static-cling",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": [
     "node >=8.0.0"
   ],
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/Kevnz/Static-Cling/issues"
   },
-  "homepage": "http://kevinisom.info/static-cling",
+  "homepage": "http://kevinisom.info/Static-Cling/",
   "scripts": {
     "test": "mocha ./test/super.test.js",
     "test:static": "node ./test/static.js",
