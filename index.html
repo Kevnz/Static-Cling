@@ -10,25 +10,26 @@
 
 <body>
   <div class="container">
-  <p>#Static Cling<br />
-This is a node.js module that allows you to spin up a static file server either from code or from the command line.</p>
-<p>###Installing<br />
-$ npm install static-cling</p>
+  <h1 id="static-cling">Static Cling</h1>
+<p>This is a node.js module that allows you to spin up a static file server either from code or from the command line.</p>
+<h3 id="installing">Installing</h3>
+<pre><code class="bash language-bash">npm install static-cling</code></pre>
 <p>Don't forget to use the global flag (--g) if you want the command line option everywhere.</p>
-<p>###At the command line<br />
-$ static </p>
+<h3 id="at-the-command-line">At the command line</h3>
+<pre><code class="bash language-bash">static</code></pre>
 <p>Yeah, that's it. You have the option to pass in -p for port, otherwise it defaults to port 3000, -d for directory, if you want to specify a different directory than the one you are in, and lastly -f for the default html page, this defaults to index.html</p>
-<p>###In Code<br />
-Static Cling is available to be used as a module as well if you want to use node to host static files.</p>
-<pre><code>require('static-cling').cling();</code></pre>
+<h3 id="in-code">In Code</h3>
+<p>Static Cling is available to be used as a module as well if you want to use node to host static files.</p>
+<pre><code class="js language-js">require('static-cling')();</code></pre>
 <h3 id="options">Options</h3>
 <p>If using the module you can override the defaults by providing a config object</p>
-<pre><code>//defaults
+<pre><code class="js language-js">//defaults
 var config = {
     root: '.',
     port: 3000,
     filename: 'index.html'
 }
+const cling = require('static-cling')
 //overriding defaults
 cling({ port: 3456, root : './other/', filename: 'test.html' });</code></pre>
   </div>
