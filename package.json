@@ -38,7 +38,7 @@
     "lib": "./lib/index"
   },
   "license": "Unlicense",
-  "main": "./lib/static",
+  "main": "./lib/index",
   "devDependencies": {
     "@kev_nz/eslint-config": "^3.0.1",
     "@kev_nz/publisher": "^3.0.1",
