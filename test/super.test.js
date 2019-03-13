@@ -47,4 +47,19 @@ describe('The server handler', function() {
         done()
       })
   })
+  it('responds with the correct file when base called', function(done) {
+    const app = staticCling({
+      root: './test/other/',
+      filename: 'test.html',
+    })
+    request(app)
+      .get('/')
+      .expect('Content-Type', /html/)
+      .expect(200)
+      .end(function(err, res) {
+        if (err) throw err
+        expect(res.text).to.matchSnapshot()
+        done()
+      })
+  })
 })
